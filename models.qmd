@@ -1,0 +1,14 @@
+---
+title: "Models"
+author: "Sophie Z"
+format: html
+execute: 
+  echo: false
+---
+```{r}
+ #| label: setup
+ #| message: FALSE
+ #| echo: false
+suppressPackageStartupMessages({library(tidyverse)})
+```
+ We have set up a quarto document and addressed what the preceptor table will look like. We know our data set is from a YouGov poll that polled 1,559 US citizens on 3/10-12/24. We are trying to answer using these resources, "what proportion of all votes will be cast for Joe Biden in the 2024 election?"
